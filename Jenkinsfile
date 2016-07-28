@@ -1,5 +1,5 @@
 node {
-    if (fileExists(*)) {
+    if (fileExists("TEST")) {
         print "File Exists!"
     } else {
         print "File Doesnt Exist."
