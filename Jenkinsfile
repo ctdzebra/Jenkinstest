@@ -1,5 +1,5 @@
 node {
-  if (File('README.md').exists()))
+  if (File('README.md').exists())
     print "README.md Exists!"
   else
     print "README.md Doesnt Exist."
