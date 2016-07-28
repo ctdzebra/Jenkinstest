@@ -1,8 +1,8 @@
 node {
-    if (fileExists("README.md")) {
-        print "README.md Exists!"
+    if (fileExists("ACTIVE_DEV_x86_debug_unit_tests/Zebra/utresults/cpputest_AccessoryResetZQ300Tests.xml")) {
+        print "File Exists!"
     } else {
-        print "README.md Doesnt Exist."
+        print "File Doesnt Exist."
     }  
   
     if (fileExists("README3.md")) {
