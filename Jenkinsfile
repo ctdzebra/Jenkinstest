@@ -3,3 +3,4 @@ node {
     stage "Stage #"+i
     print 'Hello, world $i!'
   }
+}
