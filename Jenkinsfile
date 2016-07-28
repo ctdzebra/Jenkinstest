@@ -1,5 +1,5 @@
 node {
-    if (fileExists("ACTIVE_DEV_x86_debug_unit_tests/Zebra/utresults/cpputest_AccessoryResetZQ300Tests.xml")) {
+    if (fileExists(*)) {
         print "File Exists!"
     } else {
         print "File Doesnt Exist."
