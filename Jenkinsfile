@@ -1,3 +1,1 @@
-node {
-  readFile encoding: 'UTF-16', file: 'README.md'
-}
+fileExists 'README.md'
