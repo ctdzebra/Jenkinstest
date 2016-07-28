@@ -1,5 +1,5 @@
 node {
-  if (fileExists("Jenkinstest/README.md"))
+  if (File('README.md').exists()))
     print "README.md Exists!"
   else
     print "README.md Doesnt Exist."
