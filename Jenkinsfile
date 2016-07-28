@@ -1,1 +1,3 @@
-readFile encoding: 'UTF-16', file: 'README'
+node {
+  readFile encoding: 'UTF-16', file: 'README'
+}
