@@ -1,6 +1,1 @@
-node {
-  for (int i=0; i< 2; ++i) {  
-    stage "Stage #"+i
-    print 'Hello, world $i!'
-  }
-}
+emailext attachLog: true, body: 'A new Jenkins job has been created: # $BUILD_NUMBER: &BRANCH_NAME: $BUILD_URL', compressLog: true, subject: 'Jenkins Job Creation', to: 'CDovidio@zebra.com'
